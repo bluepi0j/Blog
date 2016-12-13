@@ -1,0 +1,8 @@
+bluepi0j.com   # Your site's address
+
+ext .html   # Clean URLs
+errors {
+    log ../errors.log    # Error log
+    404 error-404.html   # Custom error page
+}
+fastcgi localhost:8080 php   # PHP backend

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>bluepi0j</title>
+  <id>http://www.bluepi0j.com/blog/cn</id>
+  <updated>2016-12-12T22:54:51-05:00</updated>
+  <link href="http://www.bluepi0j.com/blog/cn"></link>
+  <author>
+    <name>bluepi0j</name>
+  </author>
+  <entry>
+    <title>嫖猫记</title>
+    <updated>2016-12-14T18:00:00+08:00</updated>
+    <id>tag:www.bluepi0j.com,2016-12-14:/blog/cn/cat.html</id>
+    <content type="html">&lt;p&gt;文章预览，也可在正文中使用&lt;!--more--&gt;分割&lt;/p&gt;&#xA;</content>
+    <link href="http://www.bluepi0j.com/blog/cn/cat.html"></link>
+    <author>
+      <name>bluepi0j</name>
+    </author>
+  </entry>
+</feed>

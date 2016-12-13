@@ -1,0 +1,269 @@
+.background
+{
+	background: url('assets/background-cover.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left bottom;
+}
+
+.logo
+{
+	/* Oval: */   
+	box-shadow: 1px 1px 1px #888888; 
+	border-radius: 50%;
+	border: 5px solid #000000;
+}
+
+.main-panel {
+	margin-top: 9%;
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.center-panel 
+{
+	top: 200px;
+	text-align: center;
+/* 	colo/r: #FFF; */
+/* 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); */
+}
+
+.title 
+{
+	font-size: 2.0em;
+	margin-top: 15px;
+	letter-spacing: 0.1px;
+	font-family: "San Francisco";
+
+}
+
+.description
+{
+	font-weight: 200;
+	font-family: "San Francisco";
+
+}
+
+.blog-button
+{
+	font-weight: 500;
+	font-family: "San Francisco";
+
+}
+
+.cn-blog-button
+{
+	font-family: "PingFangSC-Medium", "sans-serif";
+}
+
+.panel-divider {
+	width: 40%;
+	margin: 20px auto;
+	border-top: 1px solid rgba(0, 0, 0, 0.62);
+}
+
+.cover-navigation 
+{
+	margin-top: 25px;
+}
+
+.navigation
+{
+	display: inline-block;
+/* 	float: left; */
+/* 	position: relative; */
+/* 	margin: 0; */
+	list-style-type: none;
+}
+
+.navigation__item {
+	display: inline-block;
+	margin: 1px 1px 0 0;
+	line-height: 1em;
+}
+
+.navigation__item a
+{
+	display: block;	
+	position: relative;
+	border-color: #FFF;
+	color: #FFF;
+	opacity: .8;
+	padding: 10px 20px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	color: #000000;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+.navigation__item—coming_soon 
+{
+	display: inline-block;
+	margin: 14px 1px 0px 0px;
+	line-height: 1em;
+
+}
+*/
+
+/*
+.navigation__item—coming_soon a 
+{	
+	display: block;	
+	position: relative;
+	opacity: .8;
+	padding: 10px 20px;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	-webkit-font-smoothing: antialiased;
+}
+*/
+
+/*
+.navigation__item {
+  display: inline-block;
+  margin: 5px 1px 0 0;
+  line-height: 1em;
+}
+*/
+/*
+  .navigation__item a {
+    display: block;
+    position: relative;
+    border-color: #FFF;
+    color: #FFF;
+    opacity: .8;
+}
+*/
+	
+.navigation__item a:hover 
+{
+  color: #747474;
+  border-color: #747474;
+  opacity: 1; 
+  text-decoration: none;
+
+ }
+
+.navigation--social a 
+{
+	border: 0px;
+	padding: 0px 8px 6px 9px; 
+ }
+ 
+.navigation--social a .label 
+{
+	display: none; 
+}
+
+/*
+.navigation--social a .icon 
+{
+	display: block;
+	font-size: 14.7em; 
+}
+*/
+
+i.social
+{
+	font-size: 25px;
+}
+
+.footer
+{
+	width: 100%;
+	font-size: 14px;
+	border-top: 1px solid #eee;
+	color: #a1b2b4;
+	background-color: rgba(0, 0, 0, 0.74);
+	clear: both;
+	height: 32px;
+	margin-top: -36px;
+	position: fixed;
+    bottom: 0;
+ }
+
+.add_one_second
+{
+	color:white;
+	text-align: center;
+	padding: 5px;
+	font-family:"A1 Mincho"
+}
+
+
+
+/* -------------------------------------- font -----------------------------------------*/
+/**
+ * http://applemusic.tumblr.com/
+ * https://jsfiddle.net/xq56dmrh/
+ */
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+@font-face {
+    font-family: ".PingFang SC";
+    font-weight: 500;
+    src: local(".PingFang-SC-Medium");
+}
+
+@font-face {
+    font-family: ".PingFang SC";
+    font-weight: 400;
+    src: local(".PingFang-SC-Regular");
+}
+
+@font-face {
+    font-family: ".PingFang SC";
+    font-weight: 300;
+    src: local(".PingFang-SC-Light");
+}
