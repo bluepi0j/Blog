@@ -188,7 +188,7 @@ For example, we add a label in the top of TestViewController.</p>
 
 <hr />
 
-<p>###Solution:</p>
+<p>#Solution:</p>
 
 <p>In the <code>presentViewController(with presentationStyle: MSMessagesAppPresentationStyle)</code> function, instead of using view.topAnchor and view.bottomAnchor</p>
 
@@ -198,7 +198,7 @@ controller.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
 controller.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
 </code></pre>
 
-<p>we use <code>topLayoutGuide.bottomAnchor</code> and <code>bottomLayoutGuide.topAnchor</code></p>
+<p>We use <code>topLayoutGuide.bottomAnchor</code> and <code>bottomLayoutGuide.topAnchor</code></p>
 
 <pre><code class="language-swift">controller.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
 controller.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
