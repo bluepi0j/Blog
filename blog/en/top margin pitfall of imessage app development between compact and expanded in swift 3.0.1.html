@@ -102,8 +102,7 @@ static let storyBoardIdentifier = &quot;TestViewController&quot;
     }
 </code></pre>
 
-<p>&nbsp;
-&nbsp;</p>
+<p>&nbsp;</p>
 
 <pre><code class="language-swift">private func presentViewController(with presentationStyle: MSMessagesAppPresentationStyle) {
         let controller: UIViewController
@@ -187,9 +186,9 @@ For example, we add a label in the top of TestViewController.</p>
 
 <p>In Apple&rsquo;s sample <code>ice cream builder</code>, since they use different ViewControllers for <code>.compact</code> and <code>.expanded</code>, so this issue doesn&rsquo;t happen in their demo.</p>
 
-<p>&ndash;</p>
+<hr />
 
-<p>####Solution:</p>
+<p>###Solution:</p>
 
 <p>In the <code>presentViewController(with presentationStyle: MSMessagesAppPresentationStyle)</code> function, instead of using view.topAnchor and view.bottomAnchor</p>
 
