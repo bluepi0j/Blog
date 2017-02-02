@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>bluepi0j</title>
   <id>http://www.bluepi0j.com/blog/en</id>
-  <updated>2016-12-12T22:55:16-05:00</updated>
+  <updated>2017-02-03T01:21:44+08:00</updated>
   <link href="http://www.bluepi0j.com/blog/en"></link>
   <author>
     <name>bluepi0j</name>
   </author>
+  <entry>
+    <title>Top Margin Pitfall Of iMessage App Development between compact and expanded in swift 3.0.1</title>
+    <updated>2017-02-03T01:20:00+08:00</updated>
+    <id>tag:www.bluepi0j.com,2017-02-03:/blog/en/top margin pitfall of imessage app development between compact and expanded in swift 3.0.1.html</id>
+    <content type="html">&lt;p&gt;I just recently started an iMessage App, I am facing a tricky problem about autolayout of top margin. This post is about the issue and my solution.&lt;/p&gt;&#xA;</content>
+    <link href="http://www.bluepi0j.com/blog/en/top margin pitfall of imessage app development between compact and expanded in swift 3.0.1.html"></link>
+    <author>
+      <name>bluepi0j</name>
+    </author>
+  </entry>
   <entry>
     <title>NSDateFormatter And Finding World Time</title>
     <updated>2014-12-03T18:00:00+08:00</updated>
